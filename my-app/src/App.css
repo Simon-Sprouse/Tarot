@@ -19,3 +19,24 @@ button {
     padding: 20px;
     margin: 20px;
 }
+
+.gallery { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+}
+
+
+.gallery-item { 
+    flex: 1 1 200px;
+    overflow: hidden;
+    max-width: 200px;
+}
+
+.gallery-image { 
+    width: 100%;
+    height: auto;
+    display: block;
+}
